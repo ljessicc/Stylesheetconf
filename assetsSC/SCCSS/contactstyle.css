@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap'); 
+ .body{
+    font-family: 'Merienda', cursive;
+    padding: 0;
+    margin: 0;
+    background-color:rgba(41, 82, 65, 0.76) ;
+    
+}
+.wrapper-i{
+    background-image: url("https://img.freepik.com/free-photo/abstract-blurred-people-seminar-event-background_1439-7.jpg?size=626&ext=jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.navbar-i{
+    height: 80px;
+    width: 100%;
+    background: rgba(133, 53, 0, 0.623);
+}
+
+.navbar-i ul{
+    float: right;
+    margin-right: 15px;
+}
+.navbar-i ul li{
+    list-style: none;
+    margin: 0 6px;
+    display: inline-block;
+    line-height: 70px;
+}
+.navbar-i ul li a{
+    text-decoration: none;
+    color: seashell;
+    font-size: 21px;  
+    padding: 7px 14px; 
+    transition: .4s; 
+}
+.navbar-i ul li a.active,
+.navbar-i ul li a:hover{
+    background: #a55b01;  
+    border-radius: 2px;  
+}
+
+a {   
+     text-decoration: none;
+}
+.social a {
+    padding: 20px;
+    color: rgb(83, 5, 5);
+    font-size: 1.1rem;
+    }
+#contact{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cornsilk;
+    box-shadow: 2px 2px 30px rgba (0,0,0,0.1);
+}
+.social a:hover {
+    color: #e747aa;
+    transition: all ease 0.3s;
+}
+.contact-box{
+    background-color: rgb(124, 196, 174);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 30px;
+    box-shadow: 2px 0px 30px rgba(85, 46, 2, 0.411);
+}
+.c-heading h1{
+    font-family: Arial;
+    color: rgb(92, 34, 1);
+    font-size: 2.4rem;
+    margin: 0px;
+    font-weight: lighter;
+    padding: 0px;
+}
+.c-heading p{
+    font-family: Arial;
+    color: rgb(77, 78, 5);
+    font-size: 0.8rem;
+    margin: 0px;
+    font-weight: lighter;
+    text-align: center;
+}
+.c-inputs {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.c-inputs input{
+    width: 250px;
+    height: 35px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(104, 18, 18);
+    outline: none;
+    margin: 10px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #220101;
+    display: flex;
+}
+.c- textarea{
+    width: 250px;
+    height: 300px;
+    outline: none;
+    background-color: rgb(250, 181, 181);
+    border: 10px;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+.c-inputs button{
+    width: 200px;
+    height: 40px;
+    background-color: goldenrod;
+    border: none;
+    outline: none;
+    margin-top:20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgba (0,0,0,0.1); 
+}
+.c-inputs input:focus{
+    border-bottom: 1px solid rgba (252,252,252,1.00);
+    transition: all ease
+}
+.c-inputs textarea:focus{
+    border: none;
+    border-bottom: 1px solid rgba(85, 46, 2, 0.411);
+    transition: all ease 0.5s;
+}
+.c-inputs button:active{
+    transform: scale(1.02);
+}
+.map{
+    filter: grayscale(0.2);
+    box-shadow: 2px 2px 30px;
+    border: 2px solid brown;
+}
+@media (max-width:1100px){
+    .map{
+        display:none;
+    }
+}
+@media (max-width:450px){
+    .social{
+        display:none;
+    }
+    .contact-box {
+        width: 100%;
+        height: 100vh;
+        box-sizing: border-box;
+    }
+}
+#contact{
+    position:static;
+    transform: translate(0,0);
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.c-heading h1{
+    font-size: 2.2rem;
+    text-align: center;
+}
+.body-su{
+    background: url("https://img.freepik.com/free-photo/group-young-people-sitting-conference-together_58466-11188.jpg?size=626&ext=jpg");
+    background-size:cover ;
+    font-family: Helvetica;
+    
+}
+.wrap-su {
+    max-width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    background: rgba(153, 142, 201, 0.103);
+    box-sizing: border-box;
+    padding: 40px;
+    color: #fff;
+}
+h2{
+    text-align:center;
+}
+input[type=text], input[type=password]{
+    width:100% ;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: rgba(99, 93, 93, 0.055);
+    border: none;
+    border-bottom: 1px dotted rgb(123, 241, 196);
+    color: rgb(235, 243, 252);
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 5px;
+    margin:5px;
+    font-weight: bold;
+}
+input[type=submit]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top:30px;
+    outline: none;
+    border: none;
+    background:#11613c ;
+    opacity: 0.9;
+    border-radius:20px;
+    font-size: 20px;
+    color: cornsilk;
+}
+input[type=submit]:hover{
+    background: #0ddb85;
+    opacity: 0.7;
+}
+.footer{
+    background: #a55b01;
+    color: beige;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    border: 7px solid #a55b01;
+    box-shadow: inset 0 0 2.5px 2x rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        45deg,
+        #a55b01,
+        rgb(53, 2, 10)
+    );
+    border-radius: 3px;
+}
