@@ -17,6 +17,9 @@ body{
     height: 80px;
     width: 100%;
     background: rgba(207, 131, 7, 0.4);
+    position: fixed;
+    top: 0;
+    
     
 }
 .main {
@@ -244,6 +247,7 @@ body{
 }
 .body-v{
     background-color: rgba(82, 36, 6, 0.671);
+    margin: 8% 0%;
    
 }
 .container-v{
